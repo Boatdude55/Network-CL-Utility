@@ -1,0 +1,53 @@
+General TCP dump output
+
+TCPAddr = {
+    IPV4: {
+        max: 255,
+        min: 0,
+        length: 5,
+        deliminator: '.'
+        portMin: 0,
+        portMax: 65535
+    },
+    IPV6: {
+        max: 255,
+        min: 0,
+        length: 16,
+        deliminator: '.',
+        portMin: 0,
+        portMax: 65535
+    }
+};
+
+TimeStamp = {
+    max: '24',
+    deliminator: ':'
+};
+
+DatagramHeader = {
+    
+};
+
+TCPFlags = {
+    
+};
+
+TCPCksum = {
+    
+};
+
+TCPSeq = {
+    
+};
+
+TCPAck = {
+    
+};
+
+TCPWin = {
+    
+};
+
+Packet Specific
+
+SYN
